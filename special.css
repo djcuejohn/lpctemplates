@@ -1,0 +1,333 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+	background: #23242b;
+	color: #fff;
+}
+.u-name {
+	font-size: 20px;
+	padding-left: 17px;
+}
+.u-name b {
+	color: #127b8e;
+}
+.header i {
+	font-size: 30px;
+	cursor: pointer;
+	color: #fff;
+}
+.header i:hover {
+	color: #127b8e;
+}
+.user-p {
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+.user-p img {
+	width: 100px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: whitesmoke;
+}
+.user-p h4 {
+	color: #ccc;
+	padding: 5px 0;
+
+}
+.side-bar {
+	width: 250px;
+	background: #262931;
+	min-height: 100vh;
+	transition: 500ms width;
+}
+.body {
+	display: flex;
+}
+.side-bar ul {
+	margin-top: 20px;
+	list-style: none;
+}
+.side-bar ul li {
+	font-size: 16px;
+	padding: 15px 0px;
+	padding-left: 20px;
+	transition: 500ms background;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.side-bar ul li:hover {
+	background: #127b8e;
+}
+.side-bar ul li a {
+	text-decoration: none;
+	color: #eee;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+.side-bar ul li a i {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 23px;
+}
+#navbtn {
+	display: inline-block;
+	margin-left: 70px;
+	font-size: 20px;
+	transition: 500ms color;
+}
+#checkbox {
+	display: none;
+}
+#checkbox:checked ~ .body .side-bar {
+	width: 60px;
+}
+#checkbox:checked ~ .body .side-bar .user-p{
+	visibility: hidden;
+}
+#checkbox:checked ~ .body .side-bar a span{
+	display: none;
+}
+.special {
+	width: 100%;
+	background: url("../img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.special h4 {
+	color:red;
+	font-size:16px;
+	text-transform: uppercase;
+}
+p:hover {
+	color: Dodgerblue;
+}
+.active{
+	font-style: italic;
+}
+.side-bar .active{
+	color: chartreuse;
+}
+
+
+#textbox1, .special1 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox2, .special2 {
+    width: 1600px;
+    height: 90px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox3, .special3 {
+    width: 1600px;
+    height: 65px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox4, .special4 {
+    width: 1600px;
+    height: 110px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox5, .special5 {
+    width: 1600px;
+    height: 65px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox6, .special6 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox7, .special7 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox8, .special8 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox9, .special9 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox10, .special10 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox11, .special11 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox12, .special12 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox13, .special13 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox14, .special14 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox15, .special15 {
+    width: 1600px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox16, .special16 {
+    width: 1600px;
+    height: 65px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+#textbox17, .special17	 {
+    width: 1600px;
+    height: 65px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 5px;
+}
+
+
+.copy-btn {
+    display: block;
+    width: 90 px;
+	height: 25px;
+	margin-top: -5px;
+	margin-bottom: 20px;
+	margin-left: 18px;
+	padding-left: 5px;
+	padding-right: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+	font-size: 12px;
+}	
+.copy-btn:hover {
+    background-color: #1bdb7b;
+}
