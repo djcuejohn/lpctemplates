@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live Person Chat</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/opening.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<input type="checkbox" id="checkbox">
+	<header class="header">
+		<h2 class="u-name">CCD <b>NMRT</b>
+			<label for="checkbox">
+				<i id="navbtn" class="fa fa-bars" aria-hidden="true"></i>
+			</label>
+		</h2>
+		<i class="fa fa-diamond" style="color:Dodgerblue;" aria-hidden="true"></i>
+	</header>
+	<div class="body">
+		<nav class="side-bar">
+			<div class="user-p">
+				<img src="img/djcue3.jpg">
+				<h4>LPC Templates</h4>
+			</div>
+			<ul>
+                <li>
+					<a href="index.html">
+						<i class="fa fa-home" aria-hidden="true"></i>
+						<span>Home</span>
+					</a>
+				</li>
+				<li>
+					<a class="active" href="opening.html">
+						<i class="fa fa-circle-thin" aria-hidden="true"></i>
+						<span>Opening Spiel</span>
+					</a>
+				</li>
+				<li>
+					<a href="credentialing.html">
+						<i class="fa fa-certificate" aria-hidden="true"></i>
+						<span>Credentialing</span></i>
+					</a>
+				</li>
+				<li>
+					<a href="contracting.html">
+						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+						<span>Contracting</span>
+					</a>
+				</li>
+				<li>
+					<a href="delegated.html">
+						<i class="fa fa-user-o" aria-hidden="true"></i>
+						<span>Delegated</span>
+					</a>
+				</li>
+				<li>
+					<a href="special.html">
+						<i class="fa fa-user-secret" aria-hidden="true"></i>
+						<span>Special Spiel</span>
+					</a>
+				</li>
+				<li>
+					<a href="transfer.html">
+						<i class="fa fa-text-width" aria-hidden="true"></i>
+						<span>Transfer</span>
+					</a>
+				</li>
+				<li>
+					<a href="closing.html">
+						<i class="fa fa-power-off" aria-hidden="true"></i>
+						<span>Closing Spiel</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="opening">
+			<h4>Opening</h4>
+			<div class="opening1">
+				<textarea id="textbox1" class="textbox">Thank you for contacting UnitedHealthcare Live Support. My name is Johnrey and I'll be your Provider Service Advocate. Please allow me a few minutes to review the information you entered and confirm my understanding of your request to determine how I can best serve you today.</textarea></div>
+				<button class="copy-btn" onclick="copyText('textbox1')">Copy</button>
+				
+			
+			<h4>Opening Patiently</h4>
+			<div class="opening2">
+				<textarea id="textbox2" class="textbox">Thank you for patiently waiting. My name is Johnrey and I'll be your Provider Service Advocate. Please allow me a few minutes to review the information you entered and confirm my understanding of your request to determine how I can best serve you today.</textarea></div>
+				<button class="copy-btn" onclick="copyText('textbox2')">Copy</button>
+		 
+			<hr class="new1">
+
+			<h4>Follow-up</h4>
+			<div class="opening3">
+				<textarea id="textbox3" class="textbox">Thank you, I hope you are doing well today. For verification purposes, can I have the following information?
+Provider Name:
+Group Name:
+Specialty: 		</textarea></div>
+				<button class="copy-btn" onclick="copyText('textbox3')">Copy</button>
+
+			<div class="opening4">	
+				<textarea id="textbox4" class="textbox">Thank you. How may I assist you today?</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox4')">Copy</button> 
+
+			<hr class="new1">
+
+			<h4>Hold</h4>
+			<div class="opening5">
+				<textarea id="textbox5" class="textbox">Do you mind holding for 2-3 minutes while I gather this information for you?</textarea> </div>	
+				<button class="copy-btn" onclick="copyText('textbox5')">Copy</button>
+			
+			<div class="opening6">
+				<textarea id="textbox6" class="textbox">Sure. I'll be more than happy to look into that. Can I have two to five minutes to research?</textarea> </div>	
+				<button class="copy-btn" onclick="copyText('textbox6')">Copy</button>
+			
+			<div class="opening7">
+				<textarea id="textbox7" class="textbox">Sure. I'll be glad to check up on that. May I have 2-5 minutes of research?</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox7')">Copy</button>
+		
+			<div class="opening8">
+				<textarea id="textbox8" class="textbox">Thank you, . Let me check the provider details. This will just take a moment. Would you mind holding on for a few minutes while I look into this?</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox8')">Copy</button>
+			
+			<div class="opening9">
+				<textarea id="textbox9" class="textbox">Absolutely, I’d be happy to help with that. Let me look up the latest information for you. In the meantime, do you have any specific questions about the process or any particular concern</textarea></div>
+				<button class="copy-btn" onclick="copyText('textbox9')">Copy</button>
+			
+			<hr class="new1">
+
+			<h4>Thank You</h4>
+			<div class="opening10">
+				<textarea id="textbox10" class="textbox">Thank you so much. I will be with you shortly.</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox10')">Copy</button>
+
+			<hr class="new1">
+
+			<h4>I'm Afraid</h4>
+			<div class="opening11">
+				<textarea id="textbox11" class="textbox">I'm afraid I'm going to need another 2-3 minutes , would that be okay?</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox11')">Copy</button>
+	
+			<div class="opening12">
+				<textarea id="textbox12" class="textbox">I really appreciate your patience. I'll be there for you soon.</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox12')">Copy</button>
+
+			<div class="opening13">
+				<textarea id="textbox13" class="textbox">Can you give me a moment to review your request?</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox13')">Copy</button>
+
+			<div class="opening14">
+				<textarea id="textbox14" class="textbox">Would you mind holding? It may take up 3-5 minutes to research your inquiry.</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox14')">Copy</button>
+
+			<div class="opening15">
+				<textarea id="textbox15" class="textbox">Would you mind holding? It may take up 3-5 minutes to submit this request. Would that be okey with you?</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox15')">Copy</button>
+			
+			<div class="opening16">
+				<textarea id="textbox16" class="textbox">Thank you for your patience. I am still reviewing your account. Do you mind holding just another minute or two?</textarea> </div>
+				<button class="copy-btn" onclick="copyText('textbox16')">Copy</button>
+				
+			<hr class="new1">
+
+		</div>
+
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
