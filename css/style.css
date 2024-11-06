@@ -81,7 +81,7 @@
 	font-size: 60px;
 	font-weight: 600;
 	position: absolute;
-	bottom: 70px;
+	bottom: 40px;
 	margin-left: 200px;
 	font-variant: small-caps;
     -webkit-text-stroke-width: .5px;
@@ -96,7 +96,7 @@
 	border-radius: 5px;
 	border-color: blueviolet;
 	position: absolute;
-	bottom: 50px;
+	bottom: 20px;
 	margin-left: 200px;
 	-webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: rgba(1, 19, 17, 0.932);
