@@ -98,7 +98,7 @@
 #checkbox:checked ~ .body .side-bar a span{
 	display: none;
 }
-.opening {
+.nam {
 	width: 100%;
 	background: url("../img/bg.jpg");
 	background-size: cover;
@@ -120,7 +120,7 @@
     -webkit-text-stroke-color: rgba(224, 235, 234, 0.932);
     text-shadow: 1px 10px 10px #e60deebb;
 }
-.opening h4 {
+.nam h4 {
 	color:rgb(150, 173, 19);
 	font-size:24px;
 	font-variant: small-caps;
@@ -139,7 +139,7 @@ p:hover{
 }
 
 
-#textbox1, .opening1 {
+#textbox1, .nam {
     width: 1080px;
     height: 65px;
     padding-top: 10px;
