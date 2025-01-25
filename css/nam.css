@@ -140,8 +140,8 @@ p:hover{
 
 
 #textbox1, .nam1 {
-    width: 1080px;
-    height: 65px;
+    width: 900px;
+    height: 85px;
 	font-size: 20px;
     padding-top: 10px;
 	padding-bottom: 6px;
@@ -154,7 +154,7 @@ p:hover{
 
 .copy-btn {
     display: block;
-    width: 90 px;
+    width: 100 px;
 	height: 25px;
 	margin-top: -5px;
 	margin-bottom: 20px;
