@@ -239,7 +239,7 @@ p:hover{
 	border-radius: 0px 10px 0px 10px;
 }
 #textbox90, .opening90 {
-    width: 1250px;
+    width: 1080px;
     height: 45px;
     padding-top: 10px;
 	padding-bottom: 6px;
@@ -340,7 +340,7 @@ p:hover{
 
 .copy-btn {
     display: block;
-    width: 120 px;
+    width: 120px;
 	height: 25px;
 	margin-top: -5px;
 	margin-bottom: 20px;
