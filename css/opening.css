@@ -238,6 +238,17 @@ p:hover{
 	margin-left: 6px;
 	border-radius: 0px 10px 0px 10px;
 }
+#textbox90, .opening90 {
+    width: 1250px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+	border-radius: 0px 10px 0px 10px;
+}
 #textbox10, .opening10 {
     width: 400px;
     height: 45px;
