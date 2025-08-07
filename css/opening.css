@@ -194,6 +194,28 @@ p:hover{
 	margin-left: 6px;
 	border-radius: 0px 10px 0px 10px;
 }
+#textbox4dot2, .opening4dot2 {
+    width: 880px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+	border-radius: 0px 10px 0px 10px;
+}
+#textbox4dot3, .opening4dot3 {
+    width: 580px;
+    height: 45px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+	border-radius: 0px 10px 0px 10px;
+}
 #textbox5, .opening5 {
     width: 650px;
     height: 45px;
@@ -375,4 +397,5 @@ p:hover{
 hr.new1 {
 	border-top: 2px dotted rgb(10, 231, 39);
   }
+
 
