@@ -203,6 +203,17 @@ p:hover {
 	margin-left: 6px;
     border-radius: 0px 10px 0px 10px;
 }
+#textbox6dot1, .special6dot1 {
+    width: 960px;
+    height: 180px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 0px 10px 0px 10px;
+}
 #textbox7, .special7 {
     width: 1150px;
     height: 45px;
@@ -345,4 +356,5 @@ p:hover {
 }	
 .copy-btn:hover {
     background-color: #1bdb7b;
+
 }
