@@ -151,6 +151,18 @@ p:hover{
 	margin-left: 6px;
 	border-radius: 0px 10px 0px 10px;
 }
+#textbox2, .impact {
+    width: 900px;
+    height: 85px;
+	font-size: 20px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+	border-radius: 0px 10px 0px 10px;
+}
 
 .copy-btn {
     display: block;
