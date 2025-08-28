@@ -121,7 +121,7 @@
     text-shadow: 1px 10px 10px #e60deebb;
 }
 .opening h4 {
-	color:rgb(150, 173, 19);
+	color: blue;
 	font-size:24px;
 	font-variant: small-caps;
 	background-color: green;
@@ -398,6 +398,7 @@ p:hover{
 hr.new1 {
 	border-top: 2px dotted rgb(10, 231, 39);
   }
+
 
 
 
