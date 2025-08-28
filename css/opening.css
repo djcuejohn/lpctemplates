@@ -124,6 +124,7 @@
 	color:rgb(150, 173, 19);
 	font-size:24px;
 	font-variant: small-caps;
+	background-color: black;
 	-webkit-text-stroke-width: .4px;
     -webkit-text-stroke-color: rgba(241, 31, 3, 0.932);
 }
@@ -397,5 +398,6 @@ p:hover{
 hr.new1 {
 	border-top: 2px dotted rgb(10, 231, 39);
   }
+
 
 
