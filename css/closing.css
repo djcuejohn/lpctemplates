@@ -230,6 +230,28 @@ p:hover {
     border-radius: 0px 10px 0px 10px;
 }
 
+#textbox9, .closing9 {
+    width: 950px;
+    height: 135px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 0px 10px 0px 10px;
+}
+#textbox10, .closing10 {
+    width: 950px;
+    height: 135px;
+    padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	margin-top: -10px ;
+    margin-bottom: 5px;
+	margin-left: 6px;
+    border-radius: 0px 10px 0px 10px;
+}
 
 .copy-btn {
     display: block;
@@ -251,4 +273,5 @@ p:hover {
 .copy-btn:hover {
     background-color: #1bdb7b;
 }
+
 
